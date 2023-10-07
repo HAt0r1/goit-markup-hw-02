@@ -34,10 +34,20 @@ ul {
   line-height: 1.5;
 }
 
+.nav-links li a:hover,
+.nav-links li a:focus {
+  color: #404bbf;
+}
+
 .nav-contacts a {
   line-height: 1.5;
   color: currentColor;
   font-style: normal;
+}
+
+.nav-contacts a:hover,
+.nav-contacts a:focus {
+  color: #404bbf;
 }
 
 /* First Section style */
@@ -59,8 +69,13 @@ ul {
   border: none;
   font-weight: 500;
   line-height: 1.5;
+  cursor: pointer;
 }
 
+.hero-button:hover,
+.her-button:focus {
+  background-color: #404bbf;
+}
 /* Second Section style */
 .info-section {
   background-color: #ffffff;
