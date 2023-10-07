@@ -7,3 +7,35 @@ body {
   margin: 0;
   padding: 0;
 }
+/* Main Presets */
+a {
+  text-decoration: none;
+}
+/* Header style */
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-logo {
+  font-family: "Raleway", sans-serif;
+  color: #2e2f42;
+  font-size: 18px;
+  line-height: 1.16;
+  text-transform: uppercase;
+}
+
+.nav-logo span {
+  color: #4d5ae5;
+}
+
+.nav-links li a {
+  font-weight: 500;
+  color: #2e2f42;
+  line-height: 1.5;
+}
+
+.nav-contacts a {
+  line-height: 1.5;
+  color: currentColor;
+  font-style: normal;
+}
