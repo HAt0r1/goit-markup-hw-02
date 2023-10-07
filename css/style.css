@@ -80,3 +80,25 @@ ul {
 .info-card .info-text {
   line-height: 1.5;
 }
+
+/* Third Section style */
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-section-title {
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 1.11;
+}
+
+.user-info .user-name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e2f42;
+  line-height: 1.2;
+}
+
+.user-info .user-position {
+  line-height: 1.5;
+}
