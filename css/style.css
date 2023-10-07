@@ -124,3 +124,26 @@ ul {
 .card .portfolio-type {
   line-height: 1.5;
 }
+
+/* Footer style */
+footer {
+  background-color: #2e2f42;
+}
+
+.footer-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  line-height: 1.16;
+  font-weight: 700;
+}
+
+.footer-title span {
+  color: #4d5ae5;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+}
