@@ -102,3 +102,25 @@ ul {
 .user-info .user-position {
   line-height: 1.5;
 }
+
+/* Fourth Section style */
+.portfolio-section {
+  background-color: #ffffff;
+}
+
+.portfolio-title {
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 1.11;
+}
+
+.card .portfolio-name {
+  font-size: 20px;
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.card .portfolio-type {
+  line-height: 1.5;
+}
