@@ -60,3 +60,23 @@ ul {
   font-weight: 500;
   line-height: 1.5;
 }
+
+/* Second Section style */
+.info-section {
+  background-color: #ffffff;
+}
+
+.main-info-title {
+  display: none;
+}
+
+.info-card .info-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e2f42;
+  line-height: 1.2;
+}
+
+.info-card .info-text {
+  line-height: 1.5;
+}
