@@ -57,7 +57,9 @@ ul {
 .hero-title {
   font-size: 56px;
   color: #ffffff;
-  line-height: 0.93;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -68,11 +70,12 @@ ul {
   border: none;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
 .hero-button:hover,
-.her-button:focus {
+.hero-button:focus {
   background-color: #404bbf;
 }
 /* Second Section style */
