@@ -6,12 +6,9 @@ body {
   padding: 0;
   background-color: #ffffff;
 }
-/* Main Presets */
-a {
-  text-decoration: none;
-}
+
 /* Header style */
-ul {
+.nav-links {
   list-style-type: none;
 }
 .main-nav-logo {
@@ -22,6 +19,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .span-nav-logo {
   color: #2e2f42;
@@ -35,38 +33,44 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 
-.nav-studio,
-.nav-portfolio,
-.nav-cont:hover {
+.nav-studio:hover,
+.nav-studio:focus {
   color: #404bbf;
 }
 
-.nav-studio,
-.nav-portfolio,
+.nav-portfolio:hover,
+.nav-portfolio:focus {
+  color: #404bbf;
+}
+
+.nav-cont:hover,
 .nav-cont:focus {
   color: #404bbf;
 }
-
 .nav-contacts {
   font-style: normal;
 }
 
+.nav-contacts-list {
+  list-style-type: none;
+}
 .address-email,
 .address-tel {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
 }
 
-.address-email,
-.address-tel:hover {
+.address-email:hover,
+.address-email:focus {
   color: #404bbf;
 }
-
-.address-email,
+.address-tel:hover,
 .address-tel:focus {
   color: #404bbf;
 }
@@ -84,8 +88,6 @@ ul {
 }
 
 .hero-button {
-  padding: 16px 32px;
-  border-radius: 4px;
   color: #ffffff;
   background-color: #4d5ae5;
   border: none;
@@ -100,6 +102,9 @@ ul {
   background-color: #404bbf;
 }
 /* Second Section style */
+.info-section-list {
+  list-style-type: none;
+}
 
 .info-card .info-title {
   font-size: 20px;
@@ -128,6 +133,10 @@ ul {
   text-transform: capitalize;
 }
 
+.team-card {
+  list-style-type: none;
+}
+
 .user {
   background-color: #ffffff;
 }
@@ -154,6 +163,10 @@ ul {
   font-size: 36px;
   color: #2e2f42;
   line-height: 1.11;
+}
+
+.portfolio-cards {
+  list-style-type: none;
 }
 
 .card .portfolio-name {
