@@ -25,9 +25,7 @@ body {
   color: #2e2f42;
 }
 
-.nav-studio,
-.nav-portfolio,
-.nav-cont {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -36,20 +34,11 @@ body {
   text-decoration: none;
 }
 
-.nav-studio:hover,
-.nav-studio:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
-.nav-portfolio:hover,
-.nav-portfolio:focus {
-  color: #404bbf;
-}
-
-.nav-cont:hover,
-.nav-cont:focus {
-  color: #404bbf;
-}
 .nav-contacts {
   font-style: normal;
 }
