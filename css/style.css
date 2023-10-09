@@ -44,8 +44,7 @@ body {
 .nav-contacts-list {
   list-style-type: none;
 }
-.address-email,
-.address-tel {
+.address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -53,14 +52,11 @@ body {
   text-decoration: none;
 }
 
-.address-email:hover,
-.address-email:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
-.address-tel:hover,
-.address-tel:focus {
-  color: #404bbf;
-}
+
 /* First Section style */
 .hero-section {
   background-color: #2e2f42;
