@@ -17,10 +17,12 @@ ul {
 
 .main-nav-logo {
   font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .main-nav-logo .span-nav-logo {
@@ -31,30 +33,36 @@ ul {
 .nav-portfolio,
 .nav-cont {
   font-weight: 500;
-  color: #2e2f42;
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.nav-studio,
-.nav-portfolio,
+.nav-studio:hover,
+.nav-portfolio:hover,
 .nav-cont:hover,
-.nav-studio,
-.nav-portfolio,
+.nav-studio:focus,
+.nav-portfolio:focus,
 .nav-cont:focus {
   color: #404bbf;
 }
+
 .nav-contacts {
   font-style: normal;
 }
+
 .address-email,
 .address-tel {
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: currentColor;
 }
 
-.address-email,
+.address-email:hover,
 .address-tel:hover,
-.address-email,
+.address-email:focus,
 .address-tel:focus {
   color: #404bbf;
 }
