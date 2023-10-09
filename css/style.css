@@ -107,7 +107,7 @@ ul {
   text-transform: capitalize;
 }
 
-.team-card {
+.card {
   background-color: #ffffff;
 }
 
@@ -116,10 +116,12 @@ ul {
   font-weight: 500;
   color: #2e2f42;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .user-position {
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Fourth Section style */
@@ -138,10 +140,12 @@ ul {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .card .portfolio-type {
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Footer style */
@@ -154,11 +158,12 @@ footer {
   font-size: 18px;
   text-transform: uppercase;
   color: #4d5ae5;
-  line-height: 1.16;
   font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
-.footer-title span {
+.footer-title .span-footer {
   color: #f4f4fd;
 }
 
